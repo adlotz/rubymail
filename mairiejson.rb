@@ -56,7 +56,7 @@ end
 
 
 # fonction qui génère le fichier en .json
-File.open("/home/adrienlotz/thp/testgoogespre/temp.json","w") do |f|
+File.open("temp.json","w") do |f|
   f.write(h.to_json)
 end
 
@@ -77,6 +77,9 @@ obj.each do |key, val|
 ws[i, 1] = key
 ws[i, 2] = val
  i += 1
+
+end
+
 
 end
 ws.save
