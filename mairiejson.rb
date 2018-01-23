@@ -77,9 +77,6 @@ obj.each do |key, val|
 ws[i, 1] = key
 ws[i, 2] = val
  i += 1
-
 end
-
-
 end
 ws.save
