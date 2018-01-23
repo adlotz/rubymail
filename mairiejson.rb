@@ -37,7 +37,6 @@ def get_all_the_list_of_town(page)
 		return list_of_town
 end
 
-
 h = Hash.new 
 
 # Appel des fonction n°1 et 3 de listage
