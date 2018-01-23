@@ -3,7 +3,7 @@ require 'gmail'
 
 
 def send_email_to_line(town,email)
-	gmail = Gmail.connect("adlotzy@gmail.com","utlink87")
+	gmail = Gmail.connect("adlotzy@gmail.com",pasword)
 	gmail.deliver do
 		to email
 		subject "Projet The Hacking Project"
